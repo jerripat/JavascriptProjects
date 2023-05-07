@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First jQuery Page</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/j<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+        $(function () {
+            $("#box").click(function () {
+                let red = Math.floor((Math.random() * 255) + 0);
+                let green = Math.floor((Math.random() * 255) + 0);
+                let blue = Math.floor((Math.random() * 255) + 0);
+                let color = "rgb(" + red + "," + green + "," + blue + ")";
+                $("#box").css(background-color, color);
+            });
+        });
+    </script>
+    <style>
+            #box {
+
+                border: 1px solid black;
+                width: 300px;
+                height: 300px;
+            }
+    </style>
+    
+</head>
+
+<body>
+    <div id=#box></div>
+</body>
+
+</html>
