@@ -28,8 +28,6 @@
             margin: 30px auto;
             overflow: hidden;
             padding: 10px;
-
-
         }
 
         #nav {
@@ -73,6 +71,11 @@
             float: left;
             width: 60%;
         }
+        main {
+            float: left;
+            width: 60%;
+        }
+
 
         .clr {
             clear: both;
@@ -103,5 +106,37 @@
             padding:5px;
             margin-bottom: 15px;
         }
+        nav {
+            height: 40px;
+            background: #666;
+        }
 
+        nav ul {
+            padding-top: 13px;
+            padding-left: 10px;
+        }
+
+        nav li {
+            list-style: none;
+            float: left;
+            padding-right: 20px;
+
+        }
+        nav .active{
+            font-weight: bold;
+            color:rgb(15, 226, 198);
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 10px;
+            background-color: #666;
+            
+        }
+        sidebar{
+            background: #bb983a;
+            float:right;
+            border:1px
+
+        }
         
